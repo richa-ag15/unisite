@@ -1,0 +1,74 @@
+@media(max-width: 700px) {
+   .container h1{
+       font-size: 25px;
+   }
+   nav img{
+       width: 160px;
+   }
+   .links ul li{
+       display: block;
+   }
+   .links ul li a{
+       color:white;
+       font-size: 20px;
+       font-family: 'Teko', sans-serif;
+   }
+   .links{
+       position: fixed;
+       background-color:#b32134 ;
+       /* #0d4462 ;      */
+       height: 100vh;
+       width: 200px;
+       top:0;
+       right: -200px;
+        text-align: left;
+       z-index: 2;
+       transition: 1s;
+       
+   }
+   nav .fa{
+       display: block;
+       color: white;
+       cursor: pointer;
+       margin: 10px;
+       font-size: 15px;
+   }
+   .links ul li:hover::after{
+       width: 0%;
+       
+    }
+    .links ul li a:hover{
+       font-size: 20.5px;
+       transition: .2s;
+     text-shadow: 2px 2px 4px #000000;   
+
+   }
+    .links ul {
+       padding: 25px;
+   }
+   .row{
+       flex-direction: column;
+   }
+   .test-col img{
+    margin-left: 0px;
+    margin-right:   15px;
+    
+}
+.cfa h1{
+    font-size: 25px;
+}
+.footer p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sub-header h1{
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+}
